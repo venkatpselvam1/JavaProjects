@@ -1,12 +1,14 @@
 package App.repository;
 
 import App.model.Student;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository("studentRepository")
+@Profile("dev")
 public class StudentsRepositoryInMemoryImpl implements StudentsRepository {
     @Override
     public List<Student> GetAllStudents()
