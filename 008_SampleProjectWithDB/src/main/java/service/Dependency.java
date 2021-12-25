@@ -1,4 +1,4 @@
-package App;
+package service;
 
 public interface Dependency {
     void Print(String str, int count);

@@ -2,6 +2,7 @@ package App;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import service.Dependency;
 
 public class Main {
 
